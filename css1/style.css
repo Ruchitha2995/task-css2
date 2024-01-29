@@ -1,0 +1,266 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caramel&family=Lora:wght@700&family=Montserrat&display=swap')
+
+font-family: 'Caramel', cursive;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    position: relative;
+    left: 80%;
+    bottom: 3.5rem;
+}
+a{
+    text-decoration: none;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 40px/45px montserrat;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: none;
+}
+
+.box2{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+padding: 1rem;
+box-shadow: none;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal bold 2rem/2rem PT serif;
+    font: 4rems;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal bold 2rem/2rem PT serif;
+    font: 4rem;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20rem;
+}
+.over{
+    position: relative;
+    right: 25rem;
+    bottom: 1rem;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 28.6rem;
+    right: 2.2rem;
+    
+
+}
+
+.box7{
+    border: 2rem solid blue;
+    border-radius: 15rem;
+    position: relative;
+    right: 56rem;
+    bottom: 15rem;
+}
+.box8{
+    color: white;
+    position: relative;
+    bottom: 15rem;
+    right: 59rem;
+}
+.parent{
+    display: flex;
+    text-align: left;
+    font: 5rem;
+    font-size: xx-small;
+    letter-spacing: 0px;
+position: relative;
+bottom: 20rem;
+    gap: 6rem;
+}
+.child{
+    display: inline;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal bold 2rem/2rem PT serif;
+    position: relative;
+    bottom: 20rem;
+}
+.box10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 4rem;
+    position: relative;
+    bottom: 20rem;
+}
+.box11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    position: relative;
+    bottom: 20rem;
+}
+.parent1{
+    display: flex;
+    text-align: left;
+    /* font: normal normal normal bold 1rem/2rem PT serif; */
+    /* font-size: x-small; */
+    letter-spacing: 0px;
+    padding: 1rem;
+    gap: 8px;
+    position: relative;
+    bottom: 15rem;
+}
+.child1{
+    display: inline;
+    position: relative;
+    bottom: 0.4rem;
+
+}
+.demo{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+    gap: 2rem;
+}
+.parent2{
+    width: 100%;
+    height: 125vh;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    position: relative;
+   
+    bottom: 10rem;
+}
+.demo1{
+    opacity: 0.4;
+    gap: 2rem;
+}
+.child2{
+    padding: 6%;
+}
+.child3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 9rem;
+}
+.child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 6rem;
+     opacity: 0.4;
+}
+.box12{
+position: relative;
+bottom: 10rem;
+left: 20rem;
+}
+.box13{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 22rem;
+    top: 5.5rem;
+}
+.box14{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 2.5rem;
+    top: 3rem;
+}
+.box15{
+    position: relative;
+    right: 5.2rem;
+    opacity: 0.4;
+}
+.box16{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 22rem;
+    top: 8rem;
+}
+.box17{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 5.5rem;
+    right: 2rem;
+}
+.box18{
+    position: relative;
+    top: 1.5rem;
+    right: 4.7rem;
+    opacity: 0.4;
+}
+.box19{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 12.5rem;
+    right: 22rem;
+}
+.box20{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 10rem;
+    right: 2.8rem;
+}
+.box21{
+    position: relative;
+    top: 1.5rem;
+    right: auto4.3rem;
+    opacity: 0.4;
+}
+
